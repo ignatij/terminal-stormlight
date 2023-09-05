@@ -1,0 +1,7 @@
+{
+  "name": "stormlight-archive-meets-bash",
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
