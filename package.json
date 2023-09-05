@@ -3,5 +3,8 @@
   "packageManager": "yarn@3.2.4",
   "dependencies": {
     "colors": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
