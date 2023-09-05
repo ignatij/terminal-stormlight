@@ -43,7 +43,7 @@ const server = createServer(async (req, res) => {
         req.headers['user-agent'] &&
         !req.headers['user-agent'].includes('curl')
       ) {
-        res.writeHead(302, { Location: 'https://github.com/ignatij/stormlight-archive-meets-bash' });
+        res.writeHead(302, { Location: 'https://github.com/ignatij/terminal-stormlight' });
         return res.end();
       }
     const rs = new Readable()
