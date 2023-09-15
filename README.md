@@ -1,9 +1,18 @@
 # Stormlight Archive Meets Bash
 
-Open-source initiative, bringing the epic world of Brandon Sanderson's Stormlight Archive series into your terminal.
+Open-source initiative, bringing the epic world of Brandon Sanderson's Stormlight Archive series into your terminal:
 
-TODO add URL and curl commands
+```bash
+curl https://terminal-stormlight.fly.dev/
+```
 
-![Alt text](image.png)
+## Demo
 
-Inspired by [parrot.live](https://github.com/hugomd/parrot.live)
+<div>
+    <img src="./terminalizer.gif"/>
+</div>
+
+## Credits
+
+* Inspired by [parrot.live](https://github.com/hugomd/parrot.live)
+* Demo gif created with [Terminalizer](https://github.com/faressoft/terminalizer)
