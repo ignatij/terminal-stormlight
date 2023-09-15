@@ -56,10 +56,12 @@ const server = createServer(async (req, res) => {
     })
 })
 
-server.listen(8080, (err) => {
+const port = process.env.PORT || 8080
+
+server.listen(port, (err) => {
     if(err) {
         console.error(err)
         process.exit(1)
     }
-    console.log('Server started on port 8080')   
+    console.log('Server started on port ' + port)   
 })
