@@ -3,7 +3,7 @@
 Open-source initiative, bringing the epic world of Brandon Sanderson's Stormlight Archive series into your terminal:
 
 ```bash
-curl https://terminal-stormlight.fly.dev/
+curl [https://terminal-stormlight.fly.dev/](https://terminal-stormlight.onrender.com)
 ```
 
 ## Demo
