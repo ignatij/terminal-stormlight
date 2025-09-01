@@ -2,13 +2,13 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 6
-  cacheKey: 8
+  version: 8
+  cacheKey: 10
 
 "colors@npm:^1.4.0":
   version: 1.4.0
   resolution: "colors@npm:1.4.0"
-  checksum: 98aa2c2418ad87dedf25d781be69dc5fc5908e279d9d30c34d8b702e586a0474605b3a189511482b9d5ed0d20c867515d22749537f7bc546256c6014f3ebdcec
+  checksum: 10/90b2d5465159813a3983ea72ca8cff75f784824ad70f2cc2b32c233e95bcfbcda101ebc6d6766bc50f57263792629bfb4f1f8a4dfbd1d240f229fc7f69b785fc
   languageName: node
   linkType: hard
 
@@ -16,6 +16,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "stormlight-archive-meets-bash@workspace:."
   dependencies:
-    colors: ^1.4.0
+    colors: "npm:^1.4.0"
   languageName: unknown
   linkType: soft
